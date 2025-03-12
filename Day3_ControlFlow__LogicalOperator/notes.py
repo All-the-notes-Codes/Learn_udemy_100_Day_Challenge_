@@ -131,4 +131,8 @@ print(not (5 == 5))        # False
 - **Functions & Modularity**: If the script grows, consider separating each section (e.g., checking odd/even) into its own function for clarity.  
 - **Readability**: Pick meaningful variable names, keep lines short, and organize related logic into small, coherent blocks.
 
+<<<<<<< HEAD
 These improvements make your code cleaner, more readable, and easier to maintain while still illustrating all the fundamental concepts (comparison operators, conditional flow, nested logic, and logical operators).
+=======
+These improvements make your code cleaner, more readable, and easier to maintain while still illustrating all the fundamental concepts (comparison operators, conditional flow, nested logic, and logical operators).
+>>>>>>> 1111326fb34092b524d381506e7e5db8ee27feaf

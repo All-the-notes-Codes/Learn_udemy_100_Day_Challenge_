@@ -1,4 +1,3 @@
-Below is a cleaned-up, more readable version of both scripts. I’ve kept your original logic and code alongside each “improved” version so you can compare and understand exactly what changed and why.
 
 ---
 
@@ -145,5 +144,3 @@ print(f"Your total bill is: ${bill}")
 - **Functions**: If these scripts get longer, you can break the logic into functions (e.g., `def get_pizza_size()` or `def choose_direction()`) to keep them organized.
 - **Comments & Docstrings**: Add brief comments about what each block does, especially if you plan to revisit or share the code.
 - **Consistent Naming & Case**: Keep your variable names in a consistent style (e.g., all lowercase with underscores) to make the code more professional and uniform.
-
-By adopting these improvements, you’ll reduce redundancy, handle edge cases more gracefully, and make your code more modular and maintainable.
