@@ -1,10 +1,10 @@
-Below is a simplified, reorganized set of notes for quick reference. All examples include comments that clarify their behavior. Some additional best practices are also included.
+Here’s a concise, single-block set of notes with examples and best practices, organized for quick reference:
 
 ---
 
-## **1. String Manipulation**
+## 1. String Manipulation
 
-### **Subscripting (Indexing)**
+### Subscripting (Indexing)
 ```python
 # Python indexing starts at 0 from the left and -1 from the right (to access from the end).
 
@@ -13,7 +13,7 @@ print("Karan"[-1])  # 'n'  (last character)
 print("Jason"[-2])  # 'o'  (2nd last character)
 ```
 
-### **Concatenation**
+### Concatenation
 ```python
 # Use + to join multiple strings.
 
@@ -22,30 +22,30 @@ print("123" + "456")  # Output: 123456
 
 ---
 
-## **2. Numeric Data Types**
+## 2. Numeric Data Types
 
-### **Integer**
+### Integer
 ```python
 # Basic integer arithmetic.
 
 print(20 + 40)  # Output: 60
 ```
 
-### **Large Integers (Readable Format)**
+### Large Integers (Readable Format)
 ```python
 # Use underscores for readability; Python ignores them.
 
 print(123_456_789)  # Output: 123456789
 ```
 
-### **Float (Decimal Numbers)**
+### Float (Decimal Numbers)
 ```python
 # Floats are numbers with a decimal point.
 
 print(3.14321)  # Output: 3.14321
 ```
 
-### **Boolean**
+### Boolean
 ```python
 # Booleans represent True/False values.
 
@@ -55,7 +55,7 @@ print(False)
 
 ---
 
-## **3. Type Checking**
+## 3. Type Checking
 ```python
 # The type() function returns the data type of the given object.
 
@@ -67,7 +67,7 @@ print(type(89.32))        # <class 'float'>
 
 ---
 
-## **4. Type Conversion (Casting)**
+## 4. Type Conversion (Casting)
 ```python
 # Convert from one data type to another using built-in functions.
 
@@ -78,7 +78,7 @@ print(bool("False"))       # Non-empty string => True (including "False")
 
 ---
 
-## **5. User Input**
+## 5. User Input
 ```python
 # input() prompts the user and returns the typed string.
 
@@ -89,33 +89,32 @@ print(email)
 
 ---
 
-## **6. String Functions**
+## 6. String Functions
 
-### **Length of a String (`len()`)**
+### Length of a String (`len()`)
 ```python
 # len() gives the number of characters in a string.
 
 print(len("Jaskaran Singh"))  # Output: 14
 ```
-
 > **Note**: `len()` also works on other sequences like lists, tuples, etc.
 
 ---
 
-## **7. Mathematical Operators**
+## 7. Mathematical Operators
 
-### **Division & Floor Division**
+### Division & Floor Division
 ```python
 print(10 / 2)   # Output: 5.0  (float division)
 print(10 // 2)  # Output: 5    (integer (floor) division)
 ```
 
-### **Exponentiation**
+### Exponentiation
 ```python
 print(2 ** 3)   # Output: 8   (2^3)
 ```
 
-### **Rounding Numbers**
+### Rounding Numbers
 ```python
 # round(number, decimal_places) rounds to specified decimal places.
 # By default, Python uses "Banker's Rounding".
@@ -127,7 +126,7 @@ print(round(22 / 7, 3))   # Output: 3.143
 
 ---
 
-## **8. Assignment Operators**
+## 8. Assignment Operators
 ```python
 # Shorthand for performing operations and reassigning in one step.
 
@@ -140,7 +139,7 @@ x /= 2   # x = x / 2  => 16.5
 
 ---
 
-## **9. Formatted Strings (`f-strings`)**
+## 9. Formatted Strings (f-strings)
 ```python
 # Insert variables directly into string literals.
 
@@ -151,11 +150,14 @@ print(f"My name is {name} and I am {age} years old.")
 
 ---
 
-### **Additional Best Practices & Techniques**
-- **Follow PEP 8** for consistent code style (e.g., variable naming, indentation).
-- **Use meaningful variable names** to clarify code (e.g., `user_age` over `x`).
-- **Comment your code** to explain *why* you’re doing something, not just *what* is happening.
-- **Validate user inputs** (e.g., check if numeric input can be safely converted to int/float).
-- **Handle errors** using try/except blocks to avoid unexpected crashes.
+## Additional Best Practices & Techniques
 
-This streamlined set of notes should cover the core basics while keeping your reference clean and clear!
+- **Follow PEP 8** for consistent code style (e.g., variable naming, indentation).
+- **Use meaningful variable names** to clarify code (e.g., `user_age` instead of `x`).
+- **Comment your code** to explain *why* you’re doing something, not just *what* it does.
+- **Validate user inputs** (e.g., ensure numeric input can be safely converted to int/float).
+- **Handle errors** using `try/except` blocks to avoid unexpected crashes.
+
+---
+
+**This should serve as a clean, concise reference for common Python basics.**
